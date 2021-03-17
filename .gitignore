@@ -11,3 +11,5 @@
 .zsh_history
 .zshrc.pre*
 *.desktop
+.nvm
+.vim/plugged
