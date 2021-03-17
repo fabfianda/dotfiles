@@ -12,6 +12,7 @@
 .zshrc.pre*
 *.desktop
 .nvm
+.npm
 .vim/plugged
 .viminfo
 tmp
