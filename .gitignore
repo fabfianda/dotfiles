@@ -1,0 +1,13 @@
+.cache
+.git
+.local
+.oh-my-zsh
+.ssh
+.bash*
+.gitconfig
+.profile
+.wget-hsts
+.zscomp*
+.zsh_history
+.zshrc.pre*
+*.desktop
