@@ -14,3 +14,5 @@ call plug#end()
 " --- LSP config --- "
 source ~/.config/nvim/lsp/lsp-config.vim
 luafile ~/.config/nvim/lsp/compe-config.lua
+luafile ~/.config/nvim/lsp/python-ls.lua
+luafile ~/.config/nvim/lsp/vls-ls.lua
