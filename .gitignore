@@ -13,3 +13,4 @@
 *.desktop
 .nvm
 .vim/plugged
+.viminfo
