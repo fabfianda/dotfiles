@@ -7,7 +7,7 @@
 .gitconfig
 .profile
 .wget-hsts
-.zscomp*
+.zcomp*
 .zsh_history
 .zshrc.pre*
 *.desktop
