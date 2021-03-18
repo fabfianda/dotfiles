@@ -4,12 +4,23 @@
 " - Make sure you use single quotes
 call plug#begin('~/.vim/plugged')
 
+
+" --- Vim Commentary --- "
+Plug 'tpope/vim-commentary'
+
+" --- Syntax --- "
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+
 " --- LSP install --- "
 Plug 'neovim/nvim-lspconfig'
 Plug 'hrsh7th/nvim-compe'
 
 " --- VimPlug: end install --- "
 call plug#end()
+
+
+" --- Plugins config --- "
+luafile ~/.config/nvim/plugins/treesitter-config.lua
 
 " --- LSP config --- "
 source ~/.config/nvim/lsp/lsp-config.vim
