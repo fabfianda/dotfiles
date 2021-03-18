@@ -18,3 +18,5 @@
 .vim/plugged
 .viminfo
 tmp
+.fzf
+.fzf*
