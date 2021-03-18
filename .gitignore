@@ -1,5 +1,7 @@
 .cache
 .git
+.python*
+.sudo*
 .local
 .oh-my-zsh
 .ssh
