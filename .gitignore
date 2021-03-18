@@ -20,3 +20,6 @@
 tmp
 .fzf
 .fzf*
+.netrw*
+.redo
+test.do
