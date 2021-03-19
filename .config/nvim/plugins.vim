@@ -34,8 +34,9 @@ source ~/.config/nvim/plugins/telescope-config.vim
 luafile ~/.config/nvim/plugins/telescope-config.lua
 
 " --- LSP config --- "
-source ~/.config/nvim/lsp/lsp-config.vim
-source ~/.config/nvim/lsp/compe-config.vim
-luafile ~/.config/nvim/lsp/compe-config.lua
-luafile ~/.config/nvim/lsp/python-ls.lua
-luafile ~/.config/nvim/lsp/vls-ls.lua
+source ~/.config/nvim/plugins/lsp/lsp-config.vim
+source ~/.config/nvim/plugins/lsp/compe-config.vim
+luafile ~/.config/nvim/plugins/lsp/compe-config.lua
+luafile ~/.config/nvim/plugins/lsp/python-ls.lua
+luafile ~/.config/nvim/plugins/lsp/vls-ls.lua
+luafile ~/.config/nvim/plugins/lsp/tsserver-ls.lua
