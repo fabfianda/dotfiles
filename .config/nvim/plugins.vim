@@ -16,6 +16,9 @@ Plug 'hrsh7th/nvim-compe'
 " --- Vim Commentary --- "
 Plug 'tpope/vim-commentary'
 
+" --- Vim Rooter --- "
+Plug 'airblade/vim-rooter'
+
 " --- Syntax --- "
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 
