@@ -1,5 +1,7 @@
 " --- Basics --- "
 syntax on 
+set nobackup
+set nowritebackup 
 set number
 set relativenumber
 set noswapfile
