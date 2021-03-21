@@ -21,6 +21,7 @@ Plug 'airblade/vim-rooter'
 
 " --- Syntax --- "
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+Plug 'sheerun/vim-polyglot'
 
 " --- Format --- "
 Plug 'mhartington/formatter.nvim'
@@ -48,3 +49,4 @@ luafile ~/.config/nvim/plugins/lsp/compe-config.lua
 luafile ~/.config/nvim/plugins/lsp/python-ls.lua
 luafile ~/.config/nvim/plugins/lsp/vls-ls.lua
 luafile ~/.config/nvim/plugins/lsp/tsserver-ls.lua
+luafile ~/.config/nvim/plugins/lsp/dhall_lsp_server-ls.lua

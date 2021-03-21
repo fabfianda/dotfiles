@@ -21,6 +21,16 @@ require('formatter').setup({
           }
         end
     },
+    dhall = {
+        -- dhall format
+       function()
+          return {
+            exe = "dhall",
+            args = {"format"},
+            stdin = true
+          }
+        end
+    },
     rust = {
       -- Rustfmt
       function()
