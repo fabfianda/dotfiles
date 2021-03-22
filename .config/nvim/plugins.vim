@@ -12,6 +12,7 @@ Plug 'nvim-telescope/telescope.nvim'
 " --- LSP install --- "
 Plug 'neovim/nvim-lspconfig'
 Plug 'hrsh7th/nvim-compe'
+Plug 'glepnir/lspsaga.nvim'
 
 " --- Vim Commentary --- "
 Plug 'tpope/vim-commentary'
@@ -45,7 +46,10 @@ luafile ~/.config/nvim/plugins/formatter-config.lua
 " --- LSP config --- "
 source ~/.config/nvim/plugins/lsp/lsp-config.vim
 source ~/.config/nvim/plugins/lsp/compe-config.vim
+source ~/.config/nvim/plugins/lsp/lspsaga-config.vim
 luafile ~/.config/nvim/plugins/lsp/compe-config.lua
+
+" --- LSP: LanguageServers config --- "
 luafile ~/.config/nvim/plugins/lsp/python-ls.lua
 luafile ~/.config/nvim/plugins/lsp/vls-ls.lua
 luafile ~/.config/nvim/plugins/lsp/tsserver-ls.lua
