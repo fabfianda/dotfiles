@@ -53,15 +53,19 @@ source ~/.config/nvim/plugins/telescope-config.vim
 luafile ~/.config/nvim/plugins/telescope-config.lua
 source ~/.config/nvim/plugins/formatter-config.vim
 luafile ~/.config/nvim/plugins/formatter-config.lua
+source ~/.config/nvim/plugins/nvim-tree-config.vim
+luafile ~/.config/nvim/plugins/galaxyline-config.lua
 
 " --- LSP config --- "
 source ~/.config/nvim/plugins/lsp/lsp-config.vim
 source ~/.config/nvim/plugins/lsp/compe-config.vim
 source ~/.config/nvim/plugins/lsp/lspsaga-config.vim
 luafile ~/.config/nvim/plugins/lsp/compe-config.lua
+luafile ~/.config/nvim/plugins/lsp/nvim-lightbulb-config.lua
 
 " --- LSP: LanguageServers config --- "
 luafile ~/.config/nvim/plugins/lsp/python-ls.lua
 luafile ~/.config/nvim/plugins/lsp/vls-ls.lua
 luafile ~/.config/nvim/plugins/lsp/tsserver-ls.lua
 luafile ~/.config/nvim/plugins/lsp/dhall_lsp_server-ls.lua
+luafile ~/.config/nvim/plugins/lsp/haskell-language-server-wrapper-ls.lua
