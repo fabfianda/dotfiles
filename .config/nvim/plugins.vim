@@ -13,6 +13,7 @@ Plug 'nvim-telescope/telescope.nvim'
 Plug 'neovim/nvim-lspconfig'
 Plug 'hrsh7th/nvim-compe'
 Plug 'glepnir/lspsaga.nvim'
+Plug 'kosayoda/nvim-lightbulb'
 
 " --- Vim Commentary --- "
 Plug 'tpope/vim-commentary'

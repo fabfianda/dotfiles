@@ -24,3 +24,5 @@ tmp
 .redo
 test.do
 snap
+.ghcup
+.cabal
