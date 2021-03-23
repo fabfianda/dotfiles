@@ -21,6 +21,9 @@ Plug 'tpope/vim-commentary'
 " --- Vim Rooter --- "
 Plug 'airblade/vim-rooter'
 
+" --- Vim Tree --- "
+Plug 'kyazdani42/nvim-tree.lua'
+
 " --- Syntax --- "
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'sheerun/vim-polyglot'
