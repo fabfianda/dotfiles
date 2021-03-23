@@ -31,6 +31,13 @@ Plug 'sheerun/vim-polyglot'
 " --- Format --- "
 Plug 'mhartington/formatter.nvim'
 
+" --- Status Line --- "
+Plug 'glepnir/galaxyline.nvim'
+
+" --- Icons --- "
+Plug 'kyazdani42/nvim-web-devicons' " for file icons
+Plug 'ryanoasis/vim-devicons'
+
 " --- Color schemes --- "
 Plug 'kristijanhusak/vim-hybrid-material'
 Plug 'morhetz/gruvbox'
