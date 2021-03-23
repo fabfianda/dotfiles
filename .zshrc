@@ -19,3 +19,4 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+[ -f "/home/sandbox/.ghcup/env" ] && source "/home/sandbox/.ghcup/env" # ghcup-env
