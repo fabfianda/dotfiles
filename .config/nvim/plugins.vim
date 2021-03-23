@@ -48,6 +48,7 @@ call plug#end()
 
 
 " --- Plugins config --- "
+source ~/.config/nvim/plugins/colorschemes-config.vim
 luafile ~/.config/nvim/plugins/treesitter-config.lua
 source ~/.config/nvim/plugins/telescope-config.vim
 luafile ~/.config/nvim/plugins/telescope-config.lua
