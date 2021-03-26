@@ -31,6 +31,15 @@ require('formatter').setup({
           }
         end
     },
+    haskell = {
+        -- stylish haskell
+       function()
+          return {
+            exe = "stylish-haskell",
+            stdin = true
+          }
+        end
+    },
     rust = {
       -- Rustfmt
       function()
