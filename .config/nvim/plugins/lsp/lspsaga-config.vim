@@ -8,7 +8,7 @@ vnoremap <silent> <leader>ca :<C-U>Lspsaga range_code_action<CR>
 
 " -- smart scroll
 nnoremap <silent> <C-f> <cmd>lua require('lspsaga.action').smart_scroll_with_saga(1)<CR>
-nnoremap <silent> <C-b> <cmd>lua require('lspsaga.action').smart_scroll_with_saga(-1)<CR
+nnoremap <silent> <C-b> <cmd>lua require('lspsaga.action').smart_scroll_with_saga(-1)<CR>
 
 " -- diagnostics
 nnoremap <silent> <leader>cd :Lspsaga show_line_diagnostics<CR>
