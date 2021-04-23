@@ -1,3 +1,4 @@
 " --- Set default --- "
-colorscheme peachpuff
+set notermguicolors
 set background=dark
+set lazyredraw

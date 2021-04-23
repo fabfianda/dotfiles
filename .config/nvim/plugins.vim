@@ -2,7 +2,7 @@
 " - Specify a directory for plugins
 " - Avoid using standard Vim directory names like 'plugin'
 " - Make sure you use single quotes
-call plug#begin('~/.vim/plugged-nvim')
+call plug#begin('~/.nvim/plugged')
 
 " --- Telescope --- "
 Plug 'nvim-lua/popup.nvim'
@@ -42,6 +42,9 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'kristijanhusak/vim-hybrid-material'
 Plug 'morhetz/gruvbox'
 Plug 'franbach/miramare'
+Plug 'nightsense/snow'
+Plug 'glepnir/oceanic-material'
+
 
 " --- VimPlug: end install --- "
 call plug#end()
