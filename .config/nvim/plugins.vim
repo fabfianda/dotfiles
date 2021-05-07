@@ -44,7 +44,9 @@ Plug 'morhetz/gruvbox'
 Plug 'franbach/miramare'
 Plug 'nightsense/snow'
 Plug 'glepnir/oceanic-material'
-
+Plug 'arcticicestudio/nord-vim'
+Plug 'folke/lsp-colors.nvim'
+Plug 'NLKNguyen/papercolor-theme'
 
 " --- VimPlug: end install --- "
 call plug#end()
