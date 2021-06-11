@@ -27,6 +27,7 @@ Plug 'kyazdani42/nvim-tree.lua'
 " --- Syntax --- "
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'sheerun/vim-polyglot'
+Plug 'vmchale/dhall-vim'
 
 " --- Format --- "
 Plug 'mhartington/formatter.nvim'
