@@ -35,6 +35,9 @@ Plug 'mhartington/formatter.nvim'
 " --- Status Line --- "
 Plug 'glepnir/galaxyline.nvim'
 
+" --- System Copy --- "
+Plug 'christoomey/vim-system-copy'
+
 " --- Icons --- "
 Plug 'kyazdani42/nvim-web-devicons' " for file icons
 Plug 'ryanoasis/vim-devicons'
