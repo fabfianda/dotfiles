@@ -1,3 +1,13 @@
+" --- Basics --- "
+syntax on 
+set nobackup
+set nowritebackup 
+set number
+set relativenumber
+set noswapfile
+set expandtab
+let mapleader=","
+
 " --- VimPlug: start install --- "
 " - Specify a directory for plugins
 " - Avoid using standard Vim directory names like 'plugin'
@@ -13,9 +23,6 @@ Plug 'nvim-telescope/telescope.nvim'
 Plug 'neovim/nvim-lspconfig'
 Plug 'hrsh7th/nvim-compe'
 Plug 'glepnir/lspsaga.nvim'
-Plug 'kosayoda/nvim-lightbulb'
-Plug 'jose-elias-alvarez/null-ls.nvim'
-Plug 'jose-elias-alvarez/nvim-lsp-ts-utils'
 
 " --- Vim Commentary --- "
 Plug 'tpope/vim-commentary'
@@ -62,25 +69,26 @@ call plug#end()
 
 
 " --- Plugins config --- "
-source ~/.config/nvim/plugins/colorschemes-config.vim
 luafile ~/.config/nvim/plugins/treesitter-config.lua
-source ~/.config/nvim/plugins/telescope-config.vim
-luafile ~/.config/nvim/plugins/telescope-config.lua
 source ~/.config/nvim/plugins/formatter-config.vim
 luafile ~/.config/nvim/plugins/formatter-config.lua
 source ~/.config/nvim/plugins/nvim-tree-config.vim
 luafile ~/.config/nvim/plugins/galaxyline-config.lua
+
+source ~/.config/nvim/plugins/telescope-config.vim
+luafile ~/.config/nvim/plugins/telescope-config.lua
 
 " --- LSP config --- "
 source ~/.config/nvim/plugins/lsp/lsp-config.vim
 source ~/.config/nvim/plugins/lsp/compe-config.vim
 source ~/.config/nvim/plugins/lsp/lspsaga-config.vim
 luafile ~/.config/nvim/plugins/lsp/compe-config.lua
-luafile ~/.config/nvim/plugins/lsp/nvim-lightbulb-config.lua
 
 " --- LSP: LanguageServers config --- "
-luafile ~/.config/nvim/plugins/lsp/python-ls.lua
-luafile ~/.config/nvim/plugins/lsp/vls-ls.lua
-luafile ~/.config/nvim/plugins/lsp/tsserver-ls.lua
 luafile ~/.config/nvim/plugins/lsp/dhall_lsp_server-ls.lua
 luafile ~/.config/nvim/plugins/lsp/haskell-language-server-wrapper-ls.lua
+
+
+" --- Custom maps --- "
+source ~/.config/nvim/maps.vim
+
