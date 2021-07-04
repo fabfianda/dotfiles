@@ -1,4 +1,4 @@
-# Very Basic NeoVim Setup 
+# Very Basic NeoVim Setup (__VERSION__)
 
 * LSP core installed
 * requires Node installed (e.g. via nvm)
