@@ -27,7 +27,7 @@ Plug 'airblade/vim-rooter'
 Plug 'kyazdani42/nvim-tree.lua'
 
 " --- Syntax --- "
-Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+" Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'sheerun/vim-polyglot'
 Plug 'vmchale/dhall-vim'
 
@@ -63,7 +63,7 @@ call plug#end()
 
 " --- Plugins config --- "
 source ~/.config/nvim/plugins/colorschemes-config.vim
-luafile ~/.config/nvim/plugins/treesitter-config.lua
+" luafile ~/.config/nvim/plugins/treesitter-config.lua
 source ~/.config/nvim/plugins/telescope-config.vim
 luafile ~/.config/nvim/plugins/telescope-config.lua
 source ~/.config/nvim/plugins/formatter-config.vim
