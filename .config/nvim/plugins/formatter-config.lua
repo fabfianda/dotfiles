@@ -1,56 +1,57 @@
-require('formatter').setup({
-  logging = false,
-  filetype = {
-    javascript = {
+require("formatter").setup(
+  {
+    logging = false,
+    filetype = {
+      javascript = {
         -- prettier
-       function()
+        function()
           return {
             exe = "prettier",
-            args = {"--stdin-filepath", vim.api.nvim_buf_get_name(0), '--single-quote'},
+            args = {"--stdin-filepath", vim.api.nvim_buf_get_name(0), "--single-quote"},
             stdin = true
           }
         end
-    },
-    vue = {
+      },
+      vue = {
         -- prettier
-       function()
+        function()
           return {
             exe = "prettier",
-            args = {"--stdin-filepath", vim.api.nvim_buf_get_name(0), '--single-quote'},
+            args = {"--stdin-filepath", vim.api.nvim_buf_get_name(0), "--single-quote"},
             stdin = true
           }
         end
-    },
-    dhall = {
+      },
+      dhall = {
         -- dhall format
-       function()
+        function()
           return {
             exe = "dhall",
             args = {"format"},
             stdin = true
           }
         end
-    },
-    haskell = {
+      },
+      haskell = {
         -- stylish haskell
-       function()
+        function()
           return {
             exe = "stylish-haskell",
             stdin = true
           }
         end
-    },
-    rust = {
-      -- Rustfmt
-      function()
-        return {
-          exe = "rustfmt",
-          args = {"--emit=stdout"},
-          stdin = true
-        }
-      end
-    },
-    lua = {
+      },
+      rust = {
+        -- Rustfmt
+        function()
+          return {
+            exe = "rustfmt",
+            args = {"--emit=stdout"},
+            stdin = true
+          }
+        end
+      },
+      lua = {
         -- luafmt
         function()
           return {
@@ -59,6 +60,17 @@ require('formatter').setup({
             stdin = true
           }
         end
+      },
+      python = {
+        -- luafmt
+        function()
+          return {
+            exe = "black",
+            args = {"-"},
+            stdin = true
+          }
+        end
       }
+    }
   }
-})
+)
