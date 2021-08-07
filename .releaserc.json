@@ -16,8 +16,8 @@
         "replacements": [
           {
             "files": ["README.md"],
-            "from": "__VERSION__ = \".*\"",
-            "to": "__VERSION__ = \"${nextRelease.version}\"",
+            "from": "Version: \".*\"",
+            "to": "Version: \"${nextRelease.version}\"",
             "results": [
               {
                 "file": "README.md",
