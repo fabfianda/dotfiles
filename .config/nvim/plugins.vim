@@ -40,6 +40,9 @@ Plug 'mhartington/formatter.nvim'
 " --- Status Line --- "
 Plug 'glepnir/galaxyline.nvim'
 
+" --- Git --- "
+Plug 'tpope/vim-fugitive'
+
 " --- System Copy --- "
 Plug 'christoomey/vim-system-copy'
 
