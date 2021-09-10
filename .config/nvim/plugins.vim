@@ -62,6 +62,8 @@ Plug 'NLKNguyen/papercolor-theme'
 Plug 'joshdick/onedark.vim'
 Plug 'rakr/vim-one'
 Plug 'junegunn/seoul256.vim'
+Plug 'christianchiarulli/nvcode-color-schemes.vim'
+Plug 'EdenEast/nightfox.nvim'
 
 " --- VimPlug: end install --- "
 call plug#end()
