@@ -74,6 +74,7 @@ call plug#end()
 
 
 " --- Plugins config --- "
+source ~/.config/nvim/plugins/vim-fugitive-config.vim
 source ~/.config/nvim/plugins/vim-gitgutter-config.vim
 source ~/.config/nvim/plugins/colorschemes-config.vim
 luafile ~/.config/nvim/plugins/treesitter-config.lua
