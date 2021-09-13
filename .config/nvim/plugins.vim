@@ -21,6 +21,9 @@ Plug 'jose-elias-alvarez/nvim-lsp-ts-utils'
 " --- Vim Commentary --- "
 Plug 'tpope/vim-commentary'
 
+" --- Vim Unimpaired --- "
+Plug 'tpope/vim-unimpaired'
+
 " --- Vim Rooter --- "
 Plug 'airblade/vim-rooter'
 
@@ -42,6 +45,7 @@ Plug 'glepnir/galaxyline.nvim'
 
 " --- Git --- "
 Plug 'tpope/vim-fugitive'
+Plug 'airblade/vim-gitgutter'
 
 " --- System Copy --- "
 Plug 'christoomey/vim-system-copy'
@@ -70,6 +74,7 @@ call plug#end()
 
 
 " --- Plugins config --- "
+source ~/.config/nvim/plugins/vim-gitgutter-config.vim
 source ~/.config/nvim/plugins/colorschemes-config.vim
 luafile ~/.config/nvim/plugins/treesitter-config.lua
 source ~/.config/nvim/plugins/telescope-config.vim
