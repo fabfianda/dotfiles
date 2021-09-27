@@ -1,26 +1,44 @@
+function prettier_formatter()
+  return {
+    exe = "prettier",
+    args = {"--stdin-filepath", vim.api.nvim_buf_get_name(0), "--single-quote"},
+    stdin = true
+  }
+end
+
 require("formatter").setup(
   {
     logging = false,
     filetype = {
       javascript = {
-        -- prettier
-        function()
-          return {
-            exe = "prettier",
-            args = {"--stdin-filepath", vim.api.nvim_buf_get_name(0), "--single-quote"},
-            stdin = true
-          }
-        end
+        prettier_formatter
+      },
+      javascriptreact = {
+        prettier_formatter
+      },
+      typescript = {
+        prettier_formatter
+      },
+      typescriptreact = {
+        prettier_formatter
       },
       vue = {
-        -- prettier
-        function()
-          return {
-            exe = "prettier",
-            args = {"--stdin-filepath", vim.api.nvim_buf_get_name(0), "--single-quote"},
-            stdin = true
-          }
-        end
+        prettier_formatter
+      },
+      css = {
+        prettier_formatter
+      },
+      scss = {
+        prettier_formatter
+      },
+      json = {
+        prettier_formatter
+      },
+      yml = {
+        prettier_formatter
+      },
+      yaml = {
+        prettier_formatter
       },
       dhall = {
         -- dhall format
