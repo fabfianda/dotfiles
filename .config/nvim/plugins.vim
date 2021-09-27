@@ -30,6 +30,10 @@ Plug 'airblade/vim-rooter'
 " --- Vim Tree --- "
 Plug 'kyazdani42/nvim-tree.lua'
 
+" --- Vim Maximizer --- "
+Plug 'szw/vim-maximizer'
+noremap <C-w>m :MaximizerToggle<CR>
+
 " --- Syntax --- "
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 " Plug 'sheerun/vim-polyglot'
