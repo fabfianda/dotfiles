@@ -87,6 +87,7 @@ luafile ~/.config/nvim/plugins/telescope-config.lua
 source ~/.config/nvim/plugins/formatter-config.vim
 luafile ~/.config/nvim/plugins/formatter-config.lua
 source ~/.config/nvim/plugins/nvim-tree-config.vim
+luafile ~/.config/nvim/plugins/nvim-tree-config.lua
 luafile ~/.config/nvim/plugins/galaxyline-config.lua
 
 " --- LSP config --- "
