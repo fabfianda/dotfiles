@@ -13,7 +13,7 @@ Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' }
 " --- LSP install --- "
 Plug 'neovim/nvim-lspconfig'
 Plug 'hrsh7th/nvim-compe'
-Plug 'glepnir/lspsaga.nvim'
+" Plug 'glepnir/lspsaga.nvim'
 Plug 'kosayoda/nvim-lightbulb'
 Plug 'jose-elias-alvarez/null-ls.nvim'
 Plug 'jose-elias-alvarez/nvim-lsp-ts-utils'
@@ -92,8 +92,9 @@ luafile ~/.config/nvim/plugins/galaxyline-config.lua
 
 " --- LSP config --- "
 source ~/.config/nvim/plugins/lsp/lsp-config.vim
+source ~/.config/nvim/plugins/lsp/lsp-config.lua
 source ~/.config/nvim/plugins/lsp/compe-config.vim
-source ~/.config/nvim/plugins/lsp/lspsaga-config.vim
+" source ~/.config/nvim/plugins/lsp/lspsaga-config.vim
 luafile ~/.config/nvim/plugins/lsp/compe-config.lua
 luafile ~/.config/nvim/plugins/lsp/nvim-lightbulb-config.lua
 
