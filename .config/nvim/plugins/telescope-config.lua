@@ -3,7 +3,8 @@ local actions = require("telescope.actions")
 -- custom keybindings
 local map = vim.api.nvim_set_keymap
 local default_opts = {noremap = true}
-map('n', '<SPACE>ff', "<cmd>lua require'telescope.builtin'.find_files({ find_command = {'rg', '--files', '--hidden', '-g', '!.git' }})<cr>", default_opts)
+map('n', '<SPACE>f', "<cmd>lua require'telescope.builtin'.find_files({ find_command = {'rg', '--files'  }})<cr>", default_opts)
+map('n', '<SPACE>h', "<cmd>lua require'telescope.builtin'.find_files({ find_command = {'rg', '--files', '--hidden', '-g', '!.git' }})<cr>", default_opts)
 
 -- setup
 require("telescope").setup {
