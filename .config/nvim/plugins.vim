@@ -94,7 +94,6 @@ luafile ~/.config/nvim/plugins/galaxyline-config.lua
 source ~/.config/nvim/plugins/lsp/lsp-config.vim
 source ~/.config/nvim/plugins/lsp/lsp-config.lua
 source ~/.config/nvim/plugins/lsp/compe-config.vim
-" source ~/.config/nvim/plugins/lsp/lspsaga-config.vim
 luafile ~/.config/nvim/plugins/lsp/compe-config.lua
 luafile ~/.config/nvim/plugins/lsp/nvim-lightbulb-config.lua
 
