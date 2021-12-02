@@ -89,6 +89,7 @@ luafile ~/.config/nvim/plugins/formatter-config.lua
 source ~/.config/nvim/plugins/nvim-tree-config.vim
 luafile ~/.config/nvim/plugins/nvim-tree-config.lua
 luafile ~/.config/nvim/plugins/galaxyline-config.lua
+luafile ~/.config/nvim/plugins/indent-blankline-config.lua
 
 " --- LSP config --- "
 source ~/.config/nvim/plugins/lsp/lsp-config.vim
