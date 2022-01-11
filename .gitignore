@@ -3,7 +3,6 @@
 .python*
 .sudo*
 .local
-.oh-my-zsh
 .ssh
 .bash*
 .gitconfig
