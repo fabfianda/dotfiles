@@ -1,6 +1,14 @@
 -- following options are the default
 
 require'nvim-tree'.setup {
+
+  git = {
+     ignore = true
+  },
+  filters = {
+     dotfiles = false,
+  },
+
   -- disables netrw completely
   disable_netrw       = true,
   -- hijack netrw window on startup
