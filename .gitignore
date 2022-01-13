@@ -27,3 +27,4 @@ snap
 .cabal
 htop
 vars.env
+nvim.log
