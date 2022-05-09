@@ -38,8 +38,6 @@ noremap <C-w>m :MaximizerToggle<CR>
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 " Plug 'sheerun/vim-polyglot'
 Plug 'vmchale/dhall-vim'
-Plug 'neovimhaskell/haskell-vim'
-Plug 'lukas-reineke/indent-blankline.nvim'
 
 " --- Format --- "
 Plug 'mhartington/formatter.nvim'
@@ -89,7 +87,6 @@ luafile ~/.config/nvim/plugins/formatter-config.lua
 source ~/.config/nvim/plugins/nvim-tree-config.vim
 luafile ~/.config/nvim/plugins/nvim-tree-config.lua
 luafile ~/.config/nvim/plugins/galaxyline-config.lua
-luafile ~/.config/nvim/plugins/indent-blankline-config.lua
 
 " --- LSP config --- "
 source ~/.config/nvim/plugins/lsp/lsp-config.vim
