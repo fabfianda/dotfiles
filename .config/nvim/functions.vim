@@ -8,7 +8,7 @@ function Hev() range
  let file=expand("%") 
  let cstart = "r! echo '{- | Eval results for: '".buf
  let cend = "r! echo '-}'"
- let ghc = "r! stack exec -- ghc -XOverloadedStrings % -e '".buf."'"
+ let ghc = "r! stack exec -- ghc -XOverloadedStrings -XRecordWildCards % -e '".buf."'"
  execute "w" 
  execute cstart 
  execute ghc 
